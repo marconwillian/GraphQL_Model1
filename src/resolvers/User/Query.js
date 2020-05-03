@@ -26,7 +26,7 @@ const users = async (_, args) => {
 const user = async (_, args) => {
   try {
     console.log(args);
-    const { data } = usersList.find(user => user.id === args.id);
+    const data = usersList.find(user => user.id == args.id);
     return data;
   } catch (e) {
     throw new Error(e.message);
