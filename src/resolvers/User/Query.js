@@ -13,7 +13,6 @@ const pageInfo = {
 const users = async (_, args) => {
   try {
     const current = "CURSOR NÃO ARRUMADO"
-    console.log(args);
     return {
       pageInfo,
       edges: usersList.map(item => ({ node: item, cursor: current })),
@@ -25,7 +24,6 @@ const users = async (_, args) => {
 
 const user = async (_, args) => {
   try {
-    console.log(args);
     const data = usersList.find(user => user.id == args.id);
     return data;
   } catch (e) {

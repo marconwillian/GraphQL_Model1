@@ -6,7 +6,6 @@ const usersList = [
 
 const createUser = async (_, args) => {
   try {
-    console.log(args);
     const data = usersList.find(user => user.id == 1);
     return data;
   } catch (e) {
