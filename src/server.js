@@ -6,7 +6,9 @@ const port = process.env.port || 4004;
 
 const getTypeDefs = require('./types');
 const Query = require('./resolvers/Query');
+const Mutation = require('./resolvers/Mutation');
 
+console.log(Mutation);
 
 const startServer = () => {
     try {
@@ -14,6 +16,7 @@ const startServer = () => {
 
         const resolvers = {
             Query,
+            Mutation
         };
         const typeDefs = getTypeDefs();
     
