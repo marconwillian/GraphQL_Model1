@@ -18,9 +18,9 @@
   "homepage": "https://github.com/marconwillian/GraphQL_Model1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-graphql": "^0.9.0",
+    "express-graphql": "^0.12.0",
     "graphql": "^15.0.0",
-    "graphql-tools": "^5.0.0"
+    "graphql-tools": "^7.0.2"
   },
   "devDependencies": {
     "@divyenduz/ts-graphql-plugin": "^0.1.0"
