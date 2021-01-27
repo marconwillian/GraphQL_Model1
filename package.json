@@ -1,5 +1,5 @@
 {
-  "name": "graphql_express",
+  "name": "graphql_model",
   "version": "0.0.1",
   "description": "Model for API GraphQL whith express-graphql and express",
   "main": "src/server.js",
